@@ -5,6 +5,16 @@
 
 <p>Do not worry, son I WILL SHOW YOU.</p>
 
-<code>
-test
-</code>
+```py
+# import pyml (which includes tkinter)
+from pyml import *
+
+# open your .pyml file
+with open("index.pyml") as file:
+    page = file.read()
+
+# render page
+pyml(page)
+```
+
+<p>It's almost too easy...</p>
