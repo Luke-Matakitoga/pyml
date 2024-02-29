@@ -27,10 +27,11 @@ pyml(page)
     <li>Create a file.. <code>index.pyml</code> maybe?</li>
     <li>Then shove a meta tag at the top, this tells the pyml interpreter about your page</li>
 </ul>
+
 ```html
 <meta
     doctype="pyml-1"
-    title="Wowee!"
+    title="Homepage"
     window-x="600"
     window-y="450">
 </meta>
