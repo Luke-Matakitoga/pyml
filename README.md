@@ -69,3 +69,11 @@ myName = "Luke" # put your own name here you silly man/woman
 ```html
 <script href="extra_code"></script> <!-- Remember, this is the MODULE name, there's no need for the .py file extension -->
 ```
+
+<h2>What's next??</h2>
+
+<h4>In PYML 2, you will find the following features...</h4>
+
+<ul>
+    <li>Python-HTML binding!</li>
+</ul>
