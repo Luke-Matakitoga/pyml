@@ -6,7 +6,8 @@ import importlib
 def runRestAsPython(page):
     exec(page, globals())
 
-def parse(root, page):
+def pyml(page):
+    root = Tk()
     reader = ""
     finished = False
     inParenthesis = False
@@ -84,7 +85,7 @@ def parse(root, page):
 
         if not ignoreChar:
             reader += char
-
+    root.mainloop()
 def CreateTag(root, tagName, tagContent, tagAttributes=[]):
     match tagName:
         case "p":
@@ -110,7 +111,6 @@ def CreateTag(root, tagName, tagContent, tagAttributes=[]):
         case "script":
             package = GetAttr(tagAttributes, "href", "")
             globals()[package] = importlib.import_module(package)
-
 def GetAttr(attrs, attrName, default):
     for attr in attrs:
         if(attr[0]==attrName):
