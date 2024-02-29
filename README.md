@@ -59,3 +59,13 @@ pyml(page)
 myName = "Luke" # put your own name here you silly man/woman
 
 ```
+
+<ul>
+    <li>HANG ON! I don't want to put Python code in there same file!</li>
+    <li>If you're weird like that, you can just put everything in an external file.</li>
+    <li>E.g. if I created a file called <code>extra_code.py</code>, I can add it to the top of the pyml page like so:</li>
+</ul>
+
+```html
+<script href="extra_code"></script> <!-- Remember, this is the MODULE name, there's no need for the .py file extension -->
+```
