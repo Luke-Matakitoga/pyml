@@ -54,8 +54,8 @@ pyml(page)
 </ul>
 
 ```py
-@py # Anything after this point is Python
+@py # anything after this point is Python
 
-myName = "Luke"
-...
+myName = "Luke" # put your own name here you silly man/woman
+
 ```
