@@ -53,7 +53,7 @@ pyml(page)
     <li>At the end of your file, begin the Python Block by inserting <code>@py</code></li>
 </ul>
 
-```html
+```py
 @py # Anything after this point is Python
 
 myName = "Luke"
