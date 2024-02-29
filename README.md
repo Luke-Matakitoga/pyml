@@ -37,5 +37,18 @@ pyml(page)
 </meta>
 ```
     
+<ul>
+    <li>Now you can launch your project... and see nothing?</li>
+    <li>Of course there is nothing, you forgot to add any content 🤬</li>
+    <li>Add some text!!!!</li>
+</ul>
 
+```html
+<p>Hello World!</p>
+```
 
+<ul>
+    <li>I promise you, there WILL be some python soon...</li>
+    <li>In fact, let's add some now!</li>
+    <li>At the end of your file, begin the Python Block by inserting <code>@py</code></li>
+</ul>
